@@ -75,7 +75,15 @@ function light_match() {
 function reveal() {
 	enabled = true;
 	$("#details").append('<img id="annotation" src="img/annotation.png" style="display: none;" />');
-	$("#annotation").fadeIn({"duration": 500})
+	$("#annotation").fadeIn({"duration": 500});
+	$("#annotation").click( () => {
+		if(state == "glass" && enabled) {
+			window.open("Case_Details_Secret.pdf");
+			
+		} else if (state == "glass") {
+			window.open("Case_Details.pdf");
+		}
+	});
 }
 
 function state_update(event) { 
@@ -139,10 +147,7 @@ function main() {
 		} else if (state == "glass") {
 			window.open("Case_Details.pdf");
 		}
-	})
-
-
-	
+	});
 }
 
 $(document).ready(main);
