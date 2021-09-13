@@ -88,6 +88,7 @@ function state_update(event) {
 		}
 		else if( (state == "lit_match" | state == "match" | state == "glass") && event.target.tagName == "BODY") {
 			clr_state();
+			$("#mag_glass").css("display", "initial"); // cheaper than a whole clr() 
 		}
 	}
 	else { 
