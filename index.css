@@ -1,0 +1,107 @@
+#body {
+	background-image: url('img/Background.png');
+	background-repeat: no-repeat;
+	overflow: visible;
+	height: 1027px;
+	width: 1538px;
+	margin: 0px;
+}
+
+
+html { 
+	background-image: url('img/Paisley_Background.png'); 
+	margin: 0px;
+}
+
+#crt {
+	position: absolute;
+	left: 1160px;
+	top: 326px;
+}
+#keyboard {
+	position: absolute;
+	left: 818px;
+	top: 570px;
+}
+#mug {
+	position: absolute;
+	left: 1005px;
+	top: 474px;
+}
+#mag_glass {
+	position: absolute;
+	left: 426px;
+	top: 394px;
+}
+#matchbox {
+	position: absolute;
+	left: 1310px;
+	top: 742px;
+}
+
+#case_details {
+	position: absolute;
+	left: 600px;
+	top: 450px;
+	z-index: 1;
+}
+#werewolf {
+	position: absolute;
+	left: 795px;
+	top: 449px;
+	z-index: 1;
+}
+#candle {
+	position: absolute;
+	left: 354px;
+	top: 95px;
+	z-index: 1;
+}
+#folder {
+	position: absolute;
+	left: 543px;
+	top: 414px;
+}
+#annotation {
+	position: absolute;
+	left: 643px;
+	top: 489px;
+	z-index: 2;
+}
+
+#modal-bkg {
+	display: none; 
+	position: fixed; /* Stay in place */
+	z-index: 9; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+      
+#modal {
+	position: absolute;
+	background-image: url('img/Paisley_Border.png');
+	background-size: cover;
+	width: 600px;
+	height: 463px;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+#modal-contents {
+	margin: auto;
+	max-width: 380px;
+	max-height: 250px;
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0; 
+	bottom: 0;
+}
